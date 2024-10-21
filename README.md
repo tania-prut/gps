@@ -9,7 +9,7 @@ wscat -c ws://localhost:4001
 <br><br>
 Застосунок підключається до WebSocket сервера і зчитує дані про положення супутників і об'єкта, відображає дані та положення супутників і об'єкта на графіку за допомогою бібліотеки Plotly.
 <br>
-![screenshots/1.jpg](https://github.com/tania-prut/gps/blob/main/screenshots/1.jpg)<br>
+![1](screenshots/1.jpg)<br>
 1. Підключення до WebSocket сервера:<br>
 ![2](screenshots/2.jpg)<br>
 Ця частина підключається до сервера через WebSocket і відкриває з'єднання. Після успішного підключення виводиться повідомлення в консоль.<br>
