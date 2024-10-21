@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS Tracking</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>GPS Tracking</h1>
+    <div id="locationChart" style="width:600px;height:600px;"></div>
+
+    <form id="settingsForm">
+        <label for="satVelocity">Satellite Velocity:</label>
+        <input type="number" id="satVelocity" name="satVelocity" value=""><br>
+        
+        <label for="objVelocity">Object Velocity:</label>
+        <input type="number" id="objVelocity" name="objVelocity" value=""><br>
+        
+        <button type="button" onclick="applySettings()">Apply Settings</button>
+    </form>
+
+    <script src="gps.js"></script>
+</body>
+</html>
